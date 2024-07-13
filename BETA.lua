@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer
 })
 
 function MakeScriptHub()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/SubToNeon/Neon.C-Hub-BETA-WORKING-WITH-SOLORA-/main/BETA.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SubToNeon/Neon.C-Hub-BETA-WORKING-WITH-SOLORA-/main/BETA.lua"))()
 end
 
 OrionLib:MakeNotification({
