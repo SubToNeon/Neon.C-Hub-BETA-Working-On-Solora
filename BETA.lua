@@ -77,17 +77,10 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Copy Key",
+	Name = "Copy Key Link",
 	Callback = function()
-      		setclipboard("BETA12")
+      		setclipboard("https://link-target.net/1203829/neonc-hub-beta-keysystem")
   	end    
 }) 
-
-Tab:AddButton({
-	Name = "Copy Discord Link Here",
-	Callback = function()
-      		setclipboard("https://discord.gg/5R2SGE4BDN")
-  	end    
-})
     
 OrionLib:Init()
